@@ -30,3 +30,5 @@ m.youtube.com
 duckduckgo.com
 behance.net
 www.behance.net
+google.com
+www.google.com
