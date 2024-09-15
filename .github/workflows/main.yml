@@ -1,6 +1,9 @@
-name: npm packages
+name: Generate Blocklist Hosts
 
 on: push
+#on:
+#  schedule:
+#    - cron: '0 */2 * * *'
 
 jobs:
   backup_files:
@@ -15,11 +18,14 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install npm dependencies
-      run: npm install fs axios path
+#    - name: Install npm dependencies
+#      run: npm install fs axios path
 
     - name: Update workflow
       run: git pull origin main
+      
+    - name: Run generator
+      run: node index.js
 
     - name: Upload Files
       env:
@@ -27,6 +33,6 @@ jobs:
       run: |
         git config --local user.email ${{ secrets.EMAIL }}
         git config --local user.name "Security Guy"
-        git add .
-        git commit -m "npm packages setup"
+        git add hosts
+        git commit -m "Generate hosts"
         git push
