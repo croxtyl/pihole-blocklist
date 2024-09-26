@@ -72,3 +72,4 @@ graph.facebook.com
 lm.facebook.com
 media4.giphy.com
 l.facebook.com
+wl.spotify.com
