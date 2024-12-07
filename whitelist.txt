@@ -45,3 +45,6 @@ fpt.live.com
 mail.google.com
 gmail.com
 gemini.google.com
+p.datadoghq.com
+static.datadoghq.com
+video-fa.scdn.co
