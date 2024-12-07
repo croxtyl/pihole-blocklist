@@ -76,3 +76,5 @@ wl.spotify.com
 aliexpress.com
 aliexpress.pl
 fpt.live.com
+mail.google.com
+gmail.com
