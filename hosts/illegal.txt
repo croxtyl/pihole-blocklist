@@ -33038,3 +33038,6 @@ zooqle.unblocked.llc
 zoozle.org
 ztracker.hu
 getdstudio.cc
+cmdhitter.pl
+americaddos.pl
+stresser.su
