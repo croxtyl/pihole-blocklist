@@ -19,7 +19,7 @@ jobs:
         node-version: '20'
 
 #    - name: Install npm dependencies
-#      run: npm install fs axios path
+#      run: npm install axios
 
     - name: Update workflow
       run: git pull origin main
