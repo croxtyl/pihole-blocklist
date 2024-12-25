@@ -63,8 +63,9 @@ const sourceFiles = [
         { url: 'https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/RAW/Ads', backup: 'backup/ads3/11.txt' },
         { url: 'https://raw.githubusercontent.com/FadeMind/hosts.extras/refs/heads/master/add.2o7Net/hosts', backup: 'backup/ads3/12.txt' },
         { url: 'https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/refs/heads/master/data/hosts/spy.txt', backup: 'backup/ads3/13.txt' },
-        { url: 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext', backup: 'backup/ads3/14.txt' },//
-        { url: 'https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/RAW/Tracking', backup: 'backup/ads3/15.txt' }
+        { url: 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext', backup: 'backup/ads3/14.txt' },
+        { url: 'https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/RAW/Tracking', backup: 'backup/ads3/15.txt' },
+        { url: '', backup: 'my_hosts/ads.txt' }
     ],
     target: path.join('hosts', 'ads-3.txt'),
     useWhitelist: true
@@ -138,6 +139,7 @@ const sourceFiles = [
         { url: 'https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/master/drugs.txt', backup: 'backup/illegal/2.txt' },
         { url: 'https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt', backup: 'backup/illegal/3.txt' },
         { url: 'https://raw.githubusercontent.com/blocklistproject/Lists/refs/heads/master/torrent.txt', backup: 'backup/illegal/4.txt' },
+        { url: '', backup: 'my_hosts/illegal.txt' }
     ],
     target: path.join('hosts', 'illegal.txt'),
     useWhitelist: true
