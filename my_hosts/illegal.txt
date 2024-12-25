@@ -1,0 +1,2 @@
+cmdhitter.pl
+americaddos.pl
