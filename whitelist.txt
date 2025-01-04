@@ -48,3 +48,6 @@ gemini.google.com
 p.datadoghq.com
 static.datadoghq.com
 video-fa.scdn.co
+startpage.com
+www.startpage.com
+qwant.com
