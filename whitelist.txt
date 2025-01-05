@@ -26,6 +26,7 @@ cdn.bio.link
 email.notify.docker.com
 m.youtube.com
 duckduckgo.com
+www.duckduckgo.com
 behance.net
 www.behance.net
 google.com
@@ -51,3 +52,5 @@ video-fa.scdn.co
 startpage.com
 www.startpage.com
 qwant.com
+www.qwant.com
+canva.com
