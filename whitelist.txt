@@ -58,3 +58,4 @@ x.com
 www.x.com
 speedtest.net
 www.speedtest.net
+cdn.discordapp.com
