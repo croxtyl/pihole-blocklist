@@ -56,3 +56,5 @@ www.qwant.com
 canva.com
 x.com
 www.x.com
+speedtest.net
+www.speedtest.net
