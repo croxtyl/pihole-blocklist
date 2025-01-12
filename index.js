@@ -274,11 +274,19 @@ function getWhitelist() {
   try {
     const data = fs.readFileSync(whitelistPath, 'utf8');
     console.log('Loaded whitelist from ' + whitelistPath);
-    return new Set(data.trim().split('\n').map(line => cleanLine(line).cleaned));
+    return new Set(data.trim().split('\n').map(line => cleanLine(line).toLowerCase()));
   } catch (err) {
     console.error('Error loading whitelist file: ' + err.message);
     return new Set();
   }
+}
+function isWhitelisted(line, whitelist) {
+  for (let entry of whitelist) {
+    if (line.includes(entry)) {
+      return true;
+    }
+  }
+  return false;
 }
 async function updateFilesAndCommit() {
   let whitelist = getWhitelist();
@@ -302,11 +310,9 @@ async function updateFilesAndCommit() {
     lines.forEach(line => {
       let cleanedLine = cleanLine(line);
       if (fileSet.useWhitelist) {
-        if (cleanedLine && !whitelist.has(cleanedLine.toLowerCase().replace(/\.$/, ''))) {
-          if (cleanedLine) {
-            filteredLines.push(cleanedLine);
-            totalConverted++;
-          }
+        if (cleanedLine && !isWhitelisted(cleanedLine.toLowerCase(), whitelist)) {
+          filteredLines.push(cleanedLine);
+          totalConverted++;
         } else if (cleanedLine) {
           removedLines.add(cleanedLine);
           totalRemoved++;
