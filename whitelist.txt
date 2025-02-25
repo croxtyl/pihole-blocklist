@@ -10,6 +10,7 @@ media0.giphy.com
 media1.giphy.com
 media2.giphy.com
 media3.giphy.com
+media4.giphy.com
 media.tenor.co
 discord.com
 click.discord.com
@@ -33,12 +34,6 @@ google.com
 www.google.com
 telegram.org
 twitch.tv
-media0.giphy.com
-media1.giphy.com
-media2.giphy.com
-media3.giphy.com
-media.tenor.co
-media4.giphy.com
 wl.spotify.com
 aliexpress.com
 aliexpress.pl
@@ -60,3 +55,6 @@ speedtest.net
 www.speedtest.net
 cdn.discordapp.com
 discordapp.com
+tenor.com
+imgur.com
+www.imgur.com
