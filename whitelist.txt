@@ -58,3 +58,5 @@ discordapp.com
 tenor.com
 imgur.com
 www.imgur.com
+soundcloud.com
+www.soundcloud.com
