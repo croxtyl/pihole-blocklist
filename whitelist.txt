@@ -65,3 +65,5 @@ auth0.openai.com
 open.spotify.com
 spotify.com
 www.spotify.com
+instagram.com
+www.instagram.com
