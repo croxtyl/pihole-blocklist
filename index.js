@@ -218,14 +218,14 @@ const sourceFiles = [
     target: path.join('hosts', 'other-junk.txt'),
     useWhitelist: true
   },
-  {
-    urls: [
-        { url: 'https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Xtra/domains.wildcards', backup: 'backup/extreme/1.txt' },
-        { url: 'https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/refs/heads/master/cookies_filters/adblock_cookies.txt', backup: 'backup/extreme/2.txt' },
-    ],
-    target: path.join('hosts', 'extreme.txt'),
-    useWhitelist: true
-  },
+  // {
+  //   urls: [
+  //       { url: 'https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Xtra/domains.wildcards', backup: 'backup/extreme/1.txt' },
+  //       { url: 'https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/refs/heads/master/cookies_filters/adblock_cookies.txt', backup: 'backup/extreme/2.txt' },
+  //   ],
+  //   target: path.join('hosts', 'extreme.txt'),
+  //   useWhitelist: true
+  // },
 ];
 const whitelistPath = path.join('whitelist.txt');
 const userAgent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.3';
