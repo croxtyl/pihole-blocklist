@@ -1,0 +1,8 @@
+p.datadoghq.com
+static.datadoghq.com
+auth.openai.com
+auth0.openai.com
+chatgpt.com
+chat.com
+speedtest.net
+www.speedtest.net

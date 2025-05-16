@@ -1,0 +1,9 @@
+x.com
+www.x.com
+discord.com
+click.discord.com
+cdn.discordapp.com
+discordapp.com
+telegram.org
+twitch.tv
+m.youtube.com
