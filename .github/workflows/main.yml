@@ -1,6 +1,6 @@
 name: Generate Blocklist Hosts
 
-on: push
+#on: push
 #on:
 #  schedule:
 #    - cron: '0 */3 * * *'
