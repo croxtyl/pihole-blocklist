@@ -7,3 +7,6 @@ discordapp.com
 telegram.org
 twitch.tv
 m.youtube.com
+video.twimg.com
+twimg.com
+pbs.twimg.com
