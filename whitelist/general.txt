@@ -40,3 +40,5 @@ www.soundcloud.com
 open.spotify.com
 spotify.com
 www.spotify.com
+www.filmweb.pl
+filmweb.pl
