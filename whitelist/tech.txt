@@ -3,3 +3,8 @@ connect.rom.miui.com
 radar.cloudflare.com
 ifconfig.me
 docs.requarks.io
+api.mi-img.com
+cdn.awsde0-fusion.fds.api.mi-img.com
+de.hlth.io.mi.com
+sts-hlth.io.mi.com
+account.xiaomi.com
