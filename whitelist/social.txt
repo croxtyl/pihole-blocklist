@@ -10,3 +10,5 @@ m.youtube.com
 video.twimg.com
 twimg.com
 pbs.twimg.com
+fwcdn.pl
+gateway.facebook.com
