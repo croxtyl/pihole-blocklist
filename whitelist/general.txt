@@ -43,3 +43,5 @@ www.spotify.com
 www.filmweb.pl
 filmweb.pl
 ik.imagekit.io
+assets.smoothradio.com
+ifconfig.me
