@@ -1,3 +1,5 @@
 trycloudflare.com
 connect.rom.miui.com
 radar.cloudflare.com
+ifconfig.me
+docs.requarks.io
