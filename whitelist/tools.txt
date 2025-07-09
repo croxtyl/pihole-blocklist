@@ -8,3 +8,4 @@ speedtest.net
 www.speedtest.net
 www.ipinfo.io
 ipinfo.io
+codepen.io
