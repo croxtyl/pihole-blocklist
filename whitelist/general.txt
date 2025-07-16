@@ -48,3 +48,4 @@ ifconfig.me
 ik.imagekit.io
 canvaz.scdn.co
 c.paypal.com
+geo.ddc.paypal.com
